@@ -64,7 +64,6 @@ void Player::mouse_button_callback(GLFWwindow* window, int button, int action, i
                     break;
                 }
                 else if (i.type == pawn_type::step) {
-
                     if (selected->type == pawn_type::player_rook or selected->type == pawn_type::player_king)
                         if (selected->type == pawn_type::player_rook and selected->x == 0)
                             castle_left = false;
@@ -125,6 +124,11 @@ void Player::mouse_button_callback(GLFWwindow* window, int button, int action, i
                     }
 
                     moved = true;
+
+                    if (selected->type == pawn_type::player_king) {
+                        castle_right = false;
+                        castle_left = false;
+                    }
                     break;
                 }
                 else {
