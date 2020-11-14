@@ -28,6 +28,10 @@ A simple **chess game**. The main features are:
 * Check the terminal / command promt for pawn promotion
 * The terminal also gives you instruction when the game end
 
+## Compilation
+
+If you have Visual Studio you can edit the source file or to recompile the application. I do suggest you to use the .sln file and compile it on relesase and x86. As the debug version of the program is very slow.
+
 ## Issues
 
 There are quite a lot of bugs related to user inputs and chess movements. However I already fixed most of them, if there is any bugs found in your playthough please report to me.
