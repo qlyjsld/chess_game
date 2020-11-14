@@ -209,7 +209,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE "${ADDITIONAL_LIBRARY_DEPENDENCIES
 if("${CMAKE_VS_PLATFORM_NAME}" STREQUAL "x64")
     target_link_directories(${PROJECT_NAME} PRIVATE
         "${CMAKE_SOURCE_DIR}/Dependencies/glfw/lib-vc2019;"
-        "${CMAKE_SOURCE_DIR}/Dependencies/glew/lib/Release/Win32"
+        "${CMAKE_SOURCE_DIR}/Dependencies/glew/lib/Release/x64"
     )
 elseif("${CMAKE_VS_PLATFORM_NAME}" STREQUAL "x86")
     target_link_directories(${PROJECT_NAME} PRIVATE
