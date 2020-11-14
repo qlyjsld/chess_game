@@ -38,4 +38,4 @@ There are quite a lot of bugs related to user inputs and chess movements. Howeve
 
 ## Arthurs
 
-Wu Kit Wah, also the owner of this account.
+Jay Wu, also the owner of this account.
