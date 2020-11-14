@@ -1,0 +1,5 @@
+C:/Users/jay/Desktop/github/chess/chess_game/chess/out/build/x64-Release (預設)/CMakeFiles/edit_cache.dir
+C:/Users/jay/Desktop/github/chess/chess_game/chess/out/build/x64-Release (預設)/CMakeFiles/rebuild_cache.dir
+C:/Users/jay/Desktop/github/chess/chess_game/chess/out/build/x64-Release (預設)/chess/CMakeFiles/chess.dir
+C:/Users/jay/Desktop/github/chess/chess_game/chess/out/build/x64-Release (預設)/chess/CMakeFiles/edit_cache.dir
+C:/Users/jay/Desktop/github/chess/chess_game/chess/out/build/x64-Release (預設)/chess/CMakeFiles/rebuild_cache.dir
