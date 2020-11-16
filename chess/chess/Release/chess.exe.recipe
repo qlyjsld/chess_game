@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\jay\Desktop\github\chess\chess_game\chess\Release\chess.exe</FullPath>
+      <FullPath>C:\Users\jay\Desktop\github\chess\chess_game\chess\bin\x64_Release\chess.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
