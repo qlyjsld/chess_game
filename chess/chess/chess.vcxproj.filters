@@ -1,128 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="來源檔案">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="標頭檔">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="資源檔">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\VertexArray.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\VertexBuffer.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Shader.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Texture.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\vendor\stb_image.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Bot.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Player.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Chess.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\shader\tri.shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\VertexArray.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\VertexBuffer.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Shader.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Texture.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Bot.h" />
+    <ClInclude Include="src\Chess.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\Texture.h" />
+    <ClInclude Include="src\VertexArray.h" />
+    <ClInclude Include="src\VertexBuffer.h" />
+    <ClInclude Include="src\chess_set.h" />
     <ClInclude Include="src\vendor\stb_image.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Bot.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Player.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Chess.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="src\chess_set.h">
-      <Filter>標頭檔</Filter>
+      <Filter>vendor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\texture\outline.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chessmap.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\ko.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\step.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\bishop.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\king.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\knight.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\pawn.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\queen.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\player\rook.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\bishop.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\king.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\knight.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\pawn.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\queen.png">
-      <Filter>資源檔</Filter>
-    </Image>
-    <Image Include="res\texture\chess_set\bot\rook.png">
-      <Filter>資源檔</Filter>
-    </Image>
+    <ClCompile Include="src\Bot.cpp" />
+    <ClCompile Include="src\Chess.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="src\VertexArray.cpp" />
+    <ClCompile Include="src\VertexBuffer.cpp" />
+    <ClCompile Include="src\vendor\stb_image.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

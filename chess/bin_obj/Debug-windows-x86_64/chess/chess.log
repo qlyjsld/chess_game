@@ -1,0 +1,59 @@
+﻿  Bot.cpp
+C:\Users\jay\Desktop\github\chess\chess_game\chess\chess\src\Bot.cpp(16,23): warning C4146: 一元減號運算子套用 unsigned 類型，所得的結果也會是 unsigned 類型
+  Chess.cpp
+  Main.cpp
+C:\Users\jay\Desktop\github\chess\chess_game\chess\chess\src\VertexBuffer.h(9,33): warning C4244: '引數': 將 'const float' 轉換為 'GLsizeiptr'，由於類型不同，可能導致資料遺失
+  Player.cpp
+  Shader.cpp
+  Texture.cpp
+  VertexArray.cpp
+C:\Users\jay\Desktop\github\chess\chess_game\chess\chess\src\VertexArray.cpp(15,88): warning C4312: '類型轉換': 將 'unsigned int' 轉換為較大的 'const void *'
+  VertexBuffer.cpp
+C:\Users\jay\Desktop\github\chess\chess_game\chess\chess\src\VertexBuffer.h(9,33): warning C4244: '引數': 將 'const float' 轉換為 'GLsizeiptr'，由於類型不同，可能導致資料遺失
+  stb_image.cpp
+  正在產生程式碼...
+LINK : warning LNK4098: 預設的程式庫 'MSVCRT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(wgl_context.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(osmesa_context.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(vulkan.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(win32_window.obj)'
+LINK : warning LNK4217: 函式 'calloc' 中的 'libucrtd.lib(calloc.obj)' 已匯入在 'glfw3.lib(init.obj)' 中定義的符號 '_glfwInputError'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(window.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(input.obj)'
+LINK : warning LNK4286: 'calloc' 已匯入在 'libucrtd.lib(calloc.obj)' 中定義的符號 'glfw3.lib(win32_init.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(wgl_context.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(osmesa_context.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(vulkan.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(win32_window.obj)'
+LINK : warning LNK4217: 函式 'free' 中的 'libucrtd.lib(free.obj)' 已匯入在 'glfw3.lib(init.obj)' 中定義的符號 'terminate'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(window.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(input.obj)'
+LINK : warning LNK4286: 'free' 已匯入在 'libucrtd.lib(free.obj)' 中定義的符號 'glfw3.lib(win32_init.obj)'
+LINK : warning LNK4217: 函式 '__stdio_common_vsprintf' 中的 'libucrtd.lib(output.obj)' 已匯入在 'glfw3.lib(init.obj)' 中定義的符號 '_glfwInputError'
+LINK : warning LNK4286: '__stdio_common_vsprintf' 已匯入在 'libucrtd.lib(output.obj)' 中定義的符號 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4217: 函式 'strncmp' 中的 'libucrtd.lib(strncmp.obj)' 已匯入在 'glfw3.lib(context.obj)' 中定義的符號 '_glfwRefreshContextAttribs'
+LINK : warning LNK4286: 'strncmp' 已匯入在 'libucrtd.lib(strncmp.obj)' 中定義的符號 'glfw3.lib(input.obj)'
+LINK : warning LNK4217: 函式 'strncmp' 中的 'libucrtd.lib(strncmp.obj)' 已匯入在 'glfw3.lib(egl_context.obj)' 中定義的符號 '_glfwCreateContextEGL'
+LINK : warning LNK4217: 函式 'strcspn' 中的 'libucrtd.lib(strcspn.obj)' 已匯入在 'glfw3.lib(input.obj)' 中定義的符號 'glfwUpdateGamepadMappings'
+LINK : warning LNK4217: 函式 'realloc' 中的 'libucrtd.lib(realloc.obj)' 已匯入在 'glfw3.lib(input.obj)' 中定義的符號 'glfwUpdateGamepadMappings'
+LINK : warning LNK4286: 'realloc' 已匯入在 'libucrtd.lib(realloc.obj)' 中定義的符號 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: 'realloc' 已匯入在 'libucrtd.lib(realloc.obj)' 中定義的符號 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4217: 函式 'strtoul' 中的 'libucrtd.lib(strtox.obj)' 已匯入在 'glfw3.lib(input.obj)' 中定義的符號 'parseMapping'
+LINK : warning LNK4217: 函式 'qsort' 中的 'libucrtd.lib(qsort.obj)' 已匯入在 'glfw3.lib(monitor.obj)' 中定義的符號 'refreshVideoModes'
+LINK : warning LNK4217: 函式 'qsort' 中的 'libucrtd.lib(qsort.obj)' 已匯入在 'glfw3.lib(win32_joystick.obj)' 中定義的符號 'deviceCallback'
+glfw3.lib(window.obj) : error LNK2019: 在函式 __imp_strncpyglfwWindowHintString 中參考了無法解析的外部符號
+glfw3.lib(input.obj) : error LNK2001: 無法解析的外部符號 __imp_strncpy
+glfw3.lib(win32_joystick.obj) : error LNK2001: 無法解析的外部符號 __imp_strncpy
+glfw3.lib(context.obj) : error LNK2019: 在函式 __imp___stdio_common_vsscanfsscanf 中參考了無法解析的外部符號
+glfw3.lib(input.obj) : error LNK2019: 在函式 __imp_strspnglfwUpdateGamepadMappings 中參考了無法解析的外部符號
+LIBCMTD.lib(exe_winmain.obj) : error LNK2019: 在函式 WinMain"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號
+..\bin\Debug-windows-x86_64\chess\chess.exe : fatal error LNK1120: 4 個無法解析的外部符號

@@ -14,7 +14,7 @@ void Player::mouse_button_callback(GLFWwindow* window, int button, int action, i
 	if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
 		glfwGetCursorPos(window, &xpos, &ypos);
 		for (auto& i : *chess_sets)
-			if (xpos > i.x * 100.0 and xpos < (i.x + 1.0) * 100.0 and 800 - ypos > i.y * 100.0 and 800 - ypos < (i.y + 1.0) * 100.0){
+			if (xpos > i.x * 100.0 && xpos < (i.x + 1.0) * 100.0 && 800 - ypos > i.y * 100.0 && 800 - ypos < (i.y + 1.0) * 100.0){
                 if (i.knockout == true) {
                     
                     if (selected->type == pawn_type::player_pawn) {
@@ -57,29 +57,29 @@ void Player::mouse_button_callback(GLFWwindow* window, int button, int action, i
                         }
                     }
 
-                    auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = i.x, y = i.y](const chess_set& cs) -> bool {return (cs.knockout == true) and (cs.x == x) and (cs.y == y); });
+                    auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = i.x, y = i.y](const chess_set& cs) -> bool {return (cs.knockout == true) && (cs.x == x) && (cs.y == y); });
                     chess_sets->erase(j);
 
                     moved = true;
                     break;
                 }
                 else if (i.type == pawn_type::step) {
-                    if (selected->type == pawn_type::player_rook or selected->type == pawn_type::player_king)
-                        if (selected->type == pawn_type::player_rook and selected->x == 0)
+                    if (selected->type == pawn_type::player_rook || selected->type == pawn_type::player_king)
+                        if (selected->type == pawn_type::player_rook && selected->x == 0)
                             castle_left = false;
                         else if (selected->type == pawn_type::player_king) {
-                            if ((i.x - selected->x) == 2 and castle_right == true) {
-                                auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = 7, y = 0](const chess_set& cs) -> bool {return (cs.x == x) and (cs.y == y); });
+                            if ((i.x - selected->x) == 2 && castle_right == true) {
+                                auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = 7, y = 0](const chess_set& cs) -> bool {return (cs.x == x) && (cs.y == y); });
                                 j->x = i.x - 1;
                                 castle_right = false;
                             }
-                            else if ((i.x - selected->x) == -2 and castle_left == true) {
-                                auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = 0, y = 0](const chess_set& cs) -> bool {return (cs.x == x) and (cs.y == y); });
+                            else if ((i.x - selected->x) == -2 && castle_left == true) {
+                                auto j = std::find_if(chess_sets->begin(), chess_sets->end(), [x = 0, y = 0](const chess_set& cs) -> bool {return (cs.x == x) && (cs.y == y); });
                                 j->x = i.x + 1;
                                 castle_left = false;
                             }
                         }
-                        else if(selected->type == pawn_type::player_rook and selected->x == 7)
+                        else if(selected->type == pawn_type::player_rook && selected->x == 7)
                             castle_right = false;
 
                     else if (selected->type == pawn_type::player_pawn) {
