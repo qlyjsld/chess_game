@@ -1,4 +1,5 @@
 #include "Bot.h"
+#include <iostream>
 
 void Bot::play(std::vector<chess_set>& cs) {
     auto j = std::find_if(cs.begin(), cs.end(), [step = pawn_type::step](const chess_set& cs) -> bool {return cs.type == step; });
@@ -13,7 +14,7 @@ void Bot::play(std::vector<chess_set>& cs) {
     }
 
     AlphaBeta ab;
-    ab.a = -2147483648;
+    ab.a = -2147483647;
     ab.b = 2147483647;
     ab = max(cs, 1, ab);
     cs = ab.cs;

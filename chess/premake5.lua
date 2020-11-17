@@ -11,7 +11,7 @@ workspace "chess"
 
 project "chess"
 	location "chess"
-	kind "WindowedApp"
+	kind "ConsoleApp"
 	language "C++"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -44,7 +44,7 @@ project "chess"
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
-		staticruntime "On"		
+		staticruntime "off"		
 
 		libdirs
 		{
