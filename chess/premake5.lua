@@ -10,6 +10,7 @@ workspace "chess"
 	outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 project "chess"
+
 	location "chess"
 	kind "ConsoleApp"
 	language "C++"
@@ -31,25 +32,51 @@ project "chess"
 		"%{prj.name}/src/vendor"
 	}
 
-	links
-	{
-		"glfw3",
-		"opengl32",
-		"User32",
-		"Gdi32",
-		"Shell32",
-		"glew32s"
-	}
-
 	filter "system:windows"
+
 		systemversion "latest"
 		cppdialect "C++17"
-		staticruntime "off"		
+		staticruntime "off"
+
+		links
+		{
+			"glfw3",
+			"opengl32",
+			"User32",
+			"Gdi32",
+			"Shell32",
+			"glew32s"
+		}	
 
 		libdirs
 		{
 			"Dependencies/glew/lib/Release/x64",
 			"Dependencies/glfw/lib-vc2019"
+		}
+
+		defines
+		{
+			"GLEW_STATIC";
+		}
+	
+	filter "system:macosx"
+
+		cppdialect "C++17"
+		staticruntime "off"
+
+		links
+		{
+			"glfw3",
+			"GLEW",
+			"Cocoa.framework",
+			"IOKit.framework",
+			"Opengl.framework"
+		}	
+
+		libdirs
+		{
+			"Dependencies/glew/lib/Release/x64",
+			"Dependencies/glfw_mac/lib-macos"
 		}
 
 		defines
@@ -62,15 +89,3 @@ project "chess"
 
 	filter "configurations:Release"
 		optimize "On"
-	
-	filter "system:not windows"
-		libdirs
-		{
-			"Dependencies/glew/lib/Release/x64",
-			"Dependencies/glfw_mac/lib-macos"
-		}
-
-		defines
-		{
-			"GLEW_STATIC";
-		}

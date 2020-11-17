@@ -1,4 +1,0 @@
-﻿  Bot.cpp
-LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'glew32s.lib(glew.obj)' 或位於 'C:\Users\jay\Desktop\github\chess\chess_game\chess\bin\Release-windows-x86_64\chess\vc120.pdb')，當做沒有偵錯資訊，連結物件
-  chess.vcxproj -> C:\Users\jay\Desktop\github\chess\chess_game\chess\bin\Release-windows-x86_64\chess\chess.exe
