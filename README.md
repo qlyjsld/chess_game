@@ -1,7 +1,5 @@
 # Chess
 
-**It is heavily suggested to read this before going into the game!**
-
 ## Introduction
 
 A simple **chess game**. The main features are:
@@ -10,16 +8,23 @@ A simple **chess game**. The main features are:
 * It reaches around intermediate level (draw to 1300 elo bot on chess.com)
 * Super responsive AI
 * Developed on Visual Studio 16 2019
-* Only support for Windows 10 (not tested on older version of Windows)
+* Support for Windows 10 (not tested on older version of Windows)
+* Mac support (coming soon)
 * All materials are original
 
 ## Installation
 
-1. Code -> download zip
-2. Decompress the file
-3. Go to directory -> chess/release/
-4. Click chess.exe
-5. Play!
+How to build
+1. Download premake 5 https://premake.github.io/
+2. Open command prompt
+
+```
+cd C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess
+```
+3. move premake5.exe to the command prompt and type your visual studio version
+```
+C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess> premake5.exe vs2019
+```
 
 ## How to play
 
