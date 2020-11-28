@@ -34,7 +34,7 @@ C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess> premak
 
 Binaries
 
-If you do not want to build the project, a exe file is provide in 
+If you do not want to build the project, a exe file is provided in 
 ```
 C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess\bin\Release-windows-x86_64\chess
 ```
