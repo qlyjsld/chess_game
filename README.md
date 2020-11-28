@@ -16,21 +16,21 @@ A simple **chess game**. The main features are:
 
 ### Building
 
-1. Download premake 5 
+1.  Download premake 5 
 https://premake.github.io/
 
-2. Open command prompt
+2.  Open command prompt
 
 ```
 cd C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess
 ```
-3. Move premake5.exe to the command prompt and type your visual studio version
+3.  Move premake5.exe to the command prompt and type your visual studio version
 ```
 C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess> premake5.exe vs2019
 ```
-4. Open chess.sln and build
+4.  Open chess.sln and build
 
-5. exe file is in the bin folder
+5.  exe file is in the bin folder
 
 ### Binaries
 
