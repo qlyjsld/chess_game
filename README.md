@@ -14,7 +14,7 @@ A simple **chess game**. The main features are:
 
 ## Installation
 
-Building
+### Building
 
 1. Download premake 5 
 https://premake.github.io/
@@ -32,7 +32,7 @@ C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess> premak
 
 5. exe file is in the bin folder
 
-Binaries
+### Binaries
 
 If you do not want to build the project, a exe file is provided in 
 ```
