@@ -14,8 +14,11 @@ A simple **chess game**. The main features are:
 
 ## Installation
 
-How to build
-1. Download premake 5 https://premake.github.io/
+#How to build
+
+1. Download premake 5 
+https://premake.github.io/
+
 2. Open command prompt
 
 ```
