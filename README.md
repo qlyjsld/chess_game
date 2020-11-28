@@ -14,7 +14,7 @@ A simple **chess game**. The main features are:
 
 ## Installation
 
-#How to build
+Building
 
 1. Download premake 5 
 https://premake.github.io/
@@ -24,9 +24,19 @@ https://premake.github.io/
 ```
 cd C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess
 ```
-3. move premake5.exe to the command prompt and type your visual studio version
+3. Move premake5.exe to the command prompt and type your visual studio version
 ```
 C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess> premake5.exe vs2019
+```
+4. Open chess.sln and build
+
+5. exe file is in the bin folder
+
+Binaries
+
+If you do not want to build the project, a exe file is provide in 
+```
+C:\Users\<your username>\Downloads\chess_game-main\chess_game-main\chess\bin\Release-windows-x86_64\chess
 ```
 
 ## How to play
